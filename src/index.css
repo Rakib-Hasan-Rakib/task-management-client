@@ -11,3 +11,10 @@
 .custom-btn{
     @apply bg-sky-600 text-lg md:text-xl text-white font-semibold px-4 py-2 rounded-lg mx-auto cursor-pointer
 }
+.active{
+  @apply font-medium md:text-xl tracking-wide text-red-500 transition-colors duration-200 hover:text-red-600 bg-transparent
+}
+
+.default{
+  @apply font-medium md:text-xl tracking-wide text-white transition-colors duration-200 hover:text-red-600
+}

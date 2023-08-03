@@ -3,8 +3,8 @@ import TaskForm from "./TaskForm";
 
 const AddTask = () => {
   return (
-    <div>
-      <h2>Add a Task</h2>
+    <div className="h-[100vh] flex flex-col justify-center items-center">
+      
       <TaskForm />
     </div>
   );
